@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_weather"
+            android:icon="@drawable/ic_weather"
+            android:title="@string/weather" />
+
+        <item
+            android:id="@+id/nav_unit_converter"
+            android:icon="@drawable/ic_unit_converter"
+            android:title="@string/unit_converter" />
+
+        <item
+            android:id="@+id/nav_order_list"
+            android:icon="@drawable/ic_order_list"
+            android:title="@string/order_list" />
+        <item
+            android:id="@+id/nav_my_bag"
+            android:icon="@drawable/ic_my_bag"
+            android:title="@string/my_bag" />
+
+        <item
+            android:id="@+id/nav_address"
+            android:icon="@drawable/ic_address"
+            android:title="@string/address" />
+
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/ic_setting"
+            android:title="@string/setting" />
+    </group>
+
+    <item android:title="@string/communicate">
+    <menu>
+        <item
+            android:id="@+id/nav_feedback"
+            android:icon="@drawable/ic_feedback"
+            android:title="@string/feedback" />
+
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_share"
+            android:title="@string/share" />
+
+        <item
+            android:id="@+id/nav_watch_demo"
+            android:icon="@drawable/ic_watch_demo"
+            android:title="@string/watch_app" />
+
+        <item
+            android:id="@+id/nav_tearms"
+            android:icon="@drawable/ic_privacy_policy"
+            android:title="@string/privacy" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_about"
+            android:title="@string/about_us" />
+
+<!--        <item-->
+<!--            android:id="@+id/nav_logout"-->
+<!--            android:icon="@drawable/ic_logout"-->
+<!--            android:title="@string/logout" />-->
+
+    </menu>
+    </item>
+
+</menu>

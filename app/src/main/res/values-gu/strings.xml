@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">એગ્રોડ્રિપ</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="menu_home">હોમ</string>
+    <string name="menu_gallery">ગેલેરી</string>
+    <string name="menu_slideshow">સ્લાઇડશો</string>
+    <string name="weather">હવામાન</string>
+    <string name="order_list">ઓર્ડર સૂચિ</string>
+    <string name="my_bag">મારી બેગ</string>
+    <string name="about_us">એગ્રોડ્રિપ વિશે</string>
+    <string name="privacy">શરતો અને નિયમો</string>
+    <string name="logout">બહાર નીકળો</string>
+    <string name="setting">સેટિંગ્સ</string>
+    <string name="unit_converter">એકમ પરિવર્તક</string>
+    <string name="share">એપ્લિકેશન શેર કરો</string>
+    <string name="feedback">અહીં ફીડબેક લખો</string>
+    <string name="watch_app">એપ ડેમો જુઓ</string>
+
+    <string name="btn_edit_profile">પ્રોફાઇલ સંપાદિત કરો</string>
+    <string name="btn_share_profile">પ્રોફાઇલ શેર કરો</string>
+    <string name="my_farm">મારું ફાર્મ</string>
+    <string name="agro_news">એગ્રો સમાચાર</string>
+    <string name="share_desc"> મને એગ્રોડ્રિપનો ઉપયોગ કરીને  સારા  ફાયદા  મળ્યાં છે. તેઓ ઓછા પાણીથી વધુ ઉત્પાદન લેવા માટે મદદ કરે છે, એગ્રો નિષ્ણાતની મફત સલાહ, કૃષિ ઇનપુટ્સની ઘરેલું વિતરણનો આનંદ માણો. તમે  પણ મફત એપ્લિકેશન ઇન્સ્ટોલ કરીને આ લાભો લો:</string>
+    <string name="share_title">તમને અમારી એપ્લિકેશન ગમે છે?</string>
+    <string name="add_farm_desc">તમારા ફાર્મની સાચી અને સચોટ માહિતી મેળવવા માટે આજે તમારા ફાર્મને નકશામાં ઉમેરો</string>
+    <string name="add_farm">તમારું ફાર્મ ઉમેરો</string>
+    <string name="share_on_facebook">ફેસબુક પર શેર કરો</string>
+    <string name="share_on_whatsapp">વોટ્સએપ પર શેર કરો</string>
+    <string name="edt_area"> ક્ષેત્રફળ </string>
+    <string name="edt_sowing_date">વાવણીની તારીખ</string>
+    <string name="edt_choose_crop">પાક પસંદ કરો</string>
+    <string name="edt_field_name">ગામનું / ખેતરનુ નામ</string>
+    <string name="phone">મોબાઇલ નંબર</string>
+    <string name="login">login</string>
+    <string name="terms">અહીં ક્લિક કરીને, તમે નિયમો અને શરતોથી સંમત થાઓ છો</string>
+    <string name="update_terms">અપડેટને ક્લિક કરીને, તમે નિયમો અને શરતોથી સંમત થાઓ છો</string>
+    <string name="verify_otp">ઓટીપી ચકાસો</string>
+    <string name="otp_desc">મહેરબાની કરીને મોબાઇલ નંબર પર એસએમએસ દ્વારા પ્રાપ્ત થયેલ ઓટીપી દાખલ કરો</string>
+    <string name="resend">ફરીથી મોકલો</string>
+    <string name="english">English</string>
+    <string name="txt_welcome"><b>સ્વાગત છે</b></string>
+
+    <string name="share_app_desc"><b>એગ્રોડ્રિપ</b>\n\n\ મને એગ્રોડ્રિપનો ઉપયોગ કરીને  સારા  ફાયદા  મળ્યાં છે. તેઓ ઓછા પાણીથી વધુ ઉત્પાદન લેવા માટે મદદ કરે છે, એગ્રો નિષ્ણાતની મફત સલાહ, કૃષિ ઇનપુટ્સની ઘરેલું વિતરણનો આનંદ માણો. તમે  પણ મફત એપ્લિકેશન ઇન્સ્ટોલ કરીને આ લાભો લો:\n\nhttp://play.google.com/store/apps/details?id=</string>
+    <string name="video_gallary">વિડિઓ ગેલેરી</string>
+    <string name="txtnext">આગળ</string>
+    <string name="deal_of_banner">આજ ની ડીલ</string>
+    <string name="btn_save">સાચવો</string>
+    <string name="feedback_title">પ્રતિસાદ</string>
+    <string name="gujrati">ગુજરાતી</string>
+    <string name="location">સ્થાન</string>
+    <string name="language">ભાષા</string>
+    <string name="app_features">એપ્લિકેશન સુવિધાઓ</string>
+    <string name="updatePhone">મોબાઇલ નંબર અપડેટ કરો</string>
+    <string name="update_language">ભાષા</string>
+
+    <string name="runtime_permissions_txt">કૃપા કરીને એપ્લિકેશન સેટિંગ્સમાંથી બધી મંજૂરીઓને સમતી આપો.</string>
+
+    <!--Weather-->
+    <string name="desc_about_app">હવામાન આગાહી | ☀️ ઓપન વેધર મેપ</string>
+    <string name="version">Version</string>
+    <string name="ok">બરાબર</string>
+    <string name="cancel">રદ કરો</string>
+    <string name="progress">લોડ કરી રહ્યું છે..</string>
+    <string name="msg_failed">કંઈક ખોટું થયું ... કૃપા કરીને પછીથી પ્રયત્ન કરો!</string>
+    <string name="msg_gps">કૃપા કરીને વર્તમાન સ્થાન એક્સેસ માટે જીપીએસને સક્રિય કરો</string>
+    <string name="msg_internet">કૃપા કરીને ઇન્ટરનેટથી કનેક્ટ થાઓ</string>
+    <string name="msg_location_services">એપ્લિકેશનને સ્થાન એક્સેસ માટે મંજૂરી આપો</string>
+
+    <string name="desc_app_logo">એપ્લિકેશન લોગો</string>
+    <string name="msg_splash_bottom_tag">Made with ❤ in India | Open Source Project </string>
+    <string name="action_search">બદલો</string>
+    <string name="action_about">વિશે</string>
+    <string name="search_title">શહેરનું નામ દાખલ કરો</string>
+
+    <string name="desc_weather">હવામાન સ્થિતિ</string>
+
+    <string name="temp_lable">તાપમાન:</string>
+    <string name="temp_unit">\u00B0C</string>
+    <string name="wind_lable">પવન:</string>
+    <string name="wind_unit">m/s</string>
+    <string name="pressure_lable">દબાણ:</string>
+    <string name="pressure_unit">hPa</string>
+    <string name="humidity_lable">ભેજ:</string>
+    <string name="humidity_unit">%</string>
+
+    <string name="today_s_weather">આજનું હવામાન</string>
+    <string name="view_weather_forecast">હવામાનનું અનુમાન જુઓ</string>
+    <string name="view_all_video">બધા વિડિઓ જુઓ</string>
+    <string name="view_more_deal">વધુ ડીલ જુઓ</string>
+    <string name="add_farm_desc_text">વધુ સારી સંભાળ માટે અને તમારા પાકની ચોક્કસ અને યોગ્ય માહિતી માટે</string>
+    <string name="btn_add_your_farm">તમારું ફાર્મ ઉમેરો</string>
+    <string name="view_all_agro_news">બધા એગ્રો સમાચારો જુઓ</string>
+    <string name="txt_hoe_are_you">તમે કેમ છો</string>
+    <string name="txt_connect_network">નેટવર્કથી કનેક્ટ કરો</string>
+    <string name="market_place">એગ્રો બઝાર</string>
+    <string name="crops">પાક</string>
+    <string name="refresh">Refresh</string>
+    <string name="txt_weather_forecast">હવામાન આગાહી</string>
+    <string name="edt_name">પૂરું નામ</string>
+    <string name="edt_address2">સરનામું 2</string>
+    <string name="edt_address1">સરનામું 1</string>
+    <string name="edt_city">શહેર</string>
+    <string name="edt_state">રાજ્ય</string>
+    <string name="edt_pincode">પીન કોડ</string>
+    <string name="add_address">નવું સરનામું ઉમેરો</string>
+    <string name="choose_address">સરનામું પસંદ કરો</string>
+    <string name="txtShare">શેર કરો</string>
+    <string name="more">વધુ</string>
+    <string name="txtName">નામ</string>
+    <string name="update_profile">પ્રોફાઇલ અપડેટ કરો</string>
+    <string name="last_name">છેલ્લું નામ</string>
+    <string name="first_name">પ્રથમ નામ</string>
+    <string name="farm_fertilizers">ખાસ ઉત્પાદન</string>
+    <string name="view_all_ferilizers">બધા ઉત્પાદનો જુઓ</string>
+    <string name="view_all_problems">બધી સમસ્યાઓ જુઓ</string>
+    <string name="problems_solutions">સમસ્યાઓ અને ઉકેલો</string>
+    <string name="farm_fertilizers_sub_title">શ્રેષ્ઠ ઉત્પાદકતા મેળવો</string>
+    <string name="problems_solutions_sub_title">પાક સંબંધિત ઉકેલો</string>
+    <string name="crop_tips">ટિપ્સ અને શ્રેષ્ઠ પ્રયાસો</string>
+    <string name="crop_tips_sub_title">શ્રેષ્ઠ ટીપ્સથી તમારા પાકને કેવી રીતે ઉગાડવો</string>
+    <string name="view_all_tips">બધી ટીપ્સ જુઓ</string>
+    <string name="recommended_product">ભલામણ કરેલ ઉત્પાદનો</string>
+    <string name="txt_tips">ટિપ્સ</string>
+    <string name="add_new">નવો ઉમેરો</string>
+    <string name="txt_comment">ટિપ્પણી</string>
+    <string name="btn_send">મોકલો</string>
+    <string name="rate_us">એગ્રોડ્રિપને રેટિંગ આપો</string>
+    <string name="order_details">ઓર્ડર વિગતો</string>
+    <string name="drip_title">ટપક સિંચાઇ</string>
+
+    <string name="hectare">Hectare(હેક્ટર)</string>
+    <string name="sq_yard">Sq. Yard(ચો. યાર્ડ)</string>
+    <string name="guntha">Guntha(ગુંઠા)</string>
+    <string name="bigha">Bigha(બિઘા)</string>
+    <string name="acre">Acre(એકર)</string>
+    <string name="bigha_23">Bigha(23.5)(બિઘા 23.5)</string>
+    <string name="bigha_16">Bigha(16)(બિઘા 16)</string>
+
+    <string name="village_name">ગામનું નામ :</string>
+    <string name="taluka">તાલુકો :</string>
+    <string name="choose_crop">પાક પસંદ કરો :</string>
+    <string name="area">વિસ્તાર :</string>
+    <string name="spacing">અંતર :</string>
+    <string name="repeat_case">પુનરાવર્તન કેસ :</string>
+
+
+    <string name="free_delivery">મફત ડિલિવરી</string>
+    <string name="share_product">ઉત્પાદન શેર કરો</string>
+    <string name="txtbuy">ખરીદો</string>
+    <string name="ask_expert">નિષ્ણાતને પૂછો</string>
+    <string name="txt_add_cart">સૂચી માં સામેલ કરો</string>
+
+    <string name="calculate">ગણતરી કરો</string>
+    <string name="sowing_date">વાવણીની તારીખ</string>
+    <string name="product_detail">ઉત્પાદનની વિગતો</string>
+
+    <string name="Rs">\u20B9</string>
+    <string name="place_order">ઓર્ડર કરો</string>
+    <string name="total_amount">કુલ રકમ</string>
+    <string name="cash_delivery">રોકડા રૂપિયા</string>
+    <string name="empty_cart">ખાલી કાર્ટ</string>
+    <string name="should_not_blank">ખાલી ન હોવું જોઈએ!</string>
+
+    <!--NewAdded-->
+    <string name="pls_enter_name">કૃપા કરી નામ દાખલ કરો</string>
+    <string name="pls_enter_address_1">સરનામું 1</string>
+    <string name="pls_enter_address_2">સરનામું 2</string>
+    <string name="pls_enter_city">કૃપા કરીને શહેર દાખલ કરો</string>
+    <string name="pls_enter_state">કૃપા કરીને રાજ્ય દાખલ કરો</string>
+    <string name="pls_enter_pincode">કૃપા કરીને પિનકોડ દાખલ કરો</string>
+    <string name="select_address">સરનામું પસંદ કરો</string>
+
+
+    <string name="txt_by_agrodrip">એગ્રોડ્રિપ દ્વારા</string>
+    <string name="share_neews_by_txt">દ્વારા કૃષિ સમાચાર શેર કરો...</string>
+    <string name="share_banner_by_txt">દ્વારા દિવસની ડીલ શેર કરો...</string>
+    <string name="enter_village_txt">ગામનું નામ દાખલ કરો</string>
+    <string name="chooes_crop_txt">પાક પસંદ કરો</string>
+    <string name="choose_area"> ક્ષેત્રફળ પસંદ કરો</string>
+    <string name="choose_sowing_date_txt">વાવણીની તારીખ પસંદ કરો</string>
+    <string name="choose_unit_txt">કોઈપણ એકમ પસંદ કરો</string>
+    <string name="share_crop_problem_by_txt">દ્વારા પાક-સમસ્યાઓ શેર કરો...</string>
+    <string name="share_product_by_txt">દ્વારા શેર કરો ઉત્પાદન...</string>
+    <string name="product_added_successfully">ઉત્પાદન સફળતાપૂર્વક ઉમેર્યું</string>
+    <string name="share_tips_by_txt">દ્વારા પાકની ટીપ્સ શેર કરો...</string>
+    <string name="quantity_txt">જથ્થો</string>
+    <string name="profile_update_txt">પ્રોફાઇલ સફળતાપૂર્વક અપડેટ થઈ</string>
+    <string name="stay_connected">સંપર્ક માં રહો</string>
+    <string name="delivery_door_step">તમારા ડોર સ્ટેપ પર ડિલિવરી</string>
+    <string name="letest_update_advice">નવીનતમ અપડેટ્સ અને સલાહ મેળવો</string>
+    <string name="intro_desc_1">તમારી આંગળીના ટેરવા પર મેળવો નવીન કૃષિ ટેકનોલોજી અને સ્માર્ટ ઇરીગેશન ટેક્નોલોજીની જાણકારી</string>
+    <string name="intro_desc_2">શ્રેષ્ઠ ગુણવત્તાવાળા બીજ, જંતુનાશકો અને ટપક સિંચાઈ ઉત્પાદનો ખરીદો</string>
+    <string name="intro_desc_3">હવે મેળવો તમામ કૄષિ સબઘિત એલર્ટ,તમારા પાક  અને ટપક સિંચાઈ અંગેની સમસ્યાઓનું નિરાકરણ એક જ જગ્યાએ</string>
+    <string name="pls_enter_mobile_txt">મહેરબાની કરીને મોબાઇલ નંબર દાખલ કરો</string>
+    <string name="pls_enter_valid_number_txt">કૃપા કરી માન્ય મોબાઇલ નંબર દાખલ કરો</string>
+    <string name="title_cart_list">કાર્ટ સૂચિ</string>
+    <string name="total_amount_txt">"કુલ રકમ: "</string>
+    <string name="enter_feedback_txt">પ્રતિસાદ માટે કંઈક દાખલ કરો</string>
+    <string name="double_click_exit_txt">બહાર નીકળવા માટે કૃપા કરીને પાછા ક્લિક કરો</string>
+    <string name="share_app_by">દ્વારા એપ્લિકેશન શેર કરો...</string>
+    <string name="drip_cal_success_txt">સફળતાપૂર્વક ટપક સિંચાઈની ગણતરી</string>
+    <string name="lang_already_selected">ભાષા પહેલેથી જ પસંદ કરેલ છે!</string>
+    <string name="txt_close">બંધ</string>
+    <string name="txt_today">આજે</string>
+    <string name="txt_tommorow">કાલે</string>
+    <string name="txt_later">પછી</string>
+    <string name="order_date">ઓર્ડર તારીખ:</string>
+    <string name="order_id">ઓર્ડર # :</string>
+    <string name="order_total">ઓર્ડર કુલ :</string>
+    <string name="shipment_details">શિપમેન્ટ વિગતો</string>
+    <string name="payment_information">ચુકવણીની માહિતી</string>
+    <string name="payment_method">ચુકવણી પદ્ધતિ</string>
+    <string name="billing_address">બિલિંગ સરનામું</string>
+    <string name="buy_it_again">તેને ફરીથી ખરીદો</string>
+    <string name="return_or_replace_items">વસ્તુઓ પાછા આપો અથવા બદલો</string>
+    <string name="no_data_available">કોઈ ડેટા ઉપલબ્ધ નથી</string>
+    <string name="more_information">વધુ મહિતી</string>
+    <string name="packing">પેકિંગ</string>
+    <string name="product_description">ઉત્પાદન વર્ણન</string>
+    <string name="all_products">બધા ઉત્પાદનો</string>
+    <string name="unit">એકમ</string>
+    <string name="value">મૂલ્ય</string>
+    <string name="txt_drip">ટપક સિંચાઇ</string>
+    <string name="txt_market">બજાર</string>
+    <string name="txtlogout">બહાર નીકળો</string>
+    <string name="logout_desc">શું તમે ખરેખર બહાર નિકળવા માંગો છો?</string>
+    <string name="txt_yes">હા</string>
+    <string name="txt_no">ના</string>
+    <string name="drip_calculation"> ટપક સિંચાઈની ગણતરી</string>
+    <string name="txt_village">ગામ</string>
+    <string name="txtTaluka">તાલુકો</string>
+    <string name="txtCrop">પાક</string>
+    <string name="txtSpacing">અંતર</string>
+    <string name="txtrepeat_case">પુનરાવર્તન કેસ</string>
+    <string name="price_approved_by_government">સરકાર દ્વારા માન્ય ભાવ</string>
+    <string name="applied_subsidy">લાગુ સબસિડી</string>
+    <string name="estimated_cost">અંદાજિત કિંમત</string>
+    <string name="drip_calculate_desc">ગણતરી કરેલ કિંમત માત્ર અનુમાન માટે છે, યોગ્ય ખર્ચ માટે કૃપા કરીને “નિષ્ણાતને પૂછો” પર ક્લિક કરો અને અમારા ટપક સિંચાઈ નિષ્ણાત સાથે કનેક્ટ થાઓ.</string>
+    <string name="no_farmlist_found">કોઈ ફાર્મનુ લિસ્ટ મલ્યુનથી</string>
+    <string name="communicate">વાતચીત કરો</string>
+    <string name="crop_harvested">પાક કાપ્યો?</string>
+    <string name="delete_farm">ફાર્મ કાઢી નાખો</string>
+    <string name="edit_farm">ફાર્મ સંપાદિત કરો</string>
+    <string name="inqirey_added_ask_expert">તમારી પૂછપરછ સફળતાપૂર્વક ઉમેરવામાં આવી, એગ્રોડ્રિપ નિષ્ણાત તમારો સમ્પર્ક  કરશે</string>
+    <string name="double_click">બહાર નીકળવા માટે કૃપા કરીને ફરીથી ક્લિક કરો</string>
+    <string name="address">સરનામું</string>
+    <string name="view_all_farm">બધા ફાર્મ જુઓ</string>
+    <string name="no_address_found">સરનામું ઉમેર્યું નથી</string>
+    <string name="change_location">સ્થાન બદલો</string>
+
+    <string name="next_5_days_foreacast">આગામી 5 દિવસની આગાહી</string>
+    <string name="select_language">ભાષા પસંદ કરો</string>
+    <string name="drip_added_successfully"> તમારી ગણતરી સફળતાપૂર્વક ઉમેરવામાં આવી, એગ્રોડ્રિપ નિષ્ણાત તમારો સમ્પર્ક કરશે </string>
+    <string name="orderplace_text">શું તમે ખરેખર ઓર્ડર મૂકવા માંગો છો?</string>
+    <string name="issue_drip">ટપક સિંચાઈમાં સમસ્યા</string>
+    <string name="gov_scheme">સરકારી યોજનાઓ</string>
+    <string name="share_gov_scheme">શેર કરો સરકારી યોજનાઓ</string>
+    <string name="share_issue_in_drip">શેર કરો ટપક સિંચાઈમા ઇશ્યૂ</string>
+    <string name="share_deal_of_day">શેર કરો આજ ની ડીલ</string>
+    <string name="share_news">શેર કરો એગ્રો ન્યૂઝ</string>
+    <string name="share_tips">"શેર કરો ટિપ્સ"</string>
+    <string name="share_problems">શેર કરો પાકની સમસ્યાઓ</string>
+    <string name="enquiry_for_drip_irrigation">ટપક સિંચાઈ માટેની પૂછપરછ</string>
+    <string name="order_success">ઓર્ડર સફળતા</string>
+    <string name="order_success_desc">તમારો ઓર્ડર સફળતાપૂર્વક મુકાયો, ઓર્ડર આપવા બદલ તમારો આભાર</string>
+    <string name="order_success_desc_more"><b>\u25A0 આગામી પગલાં :</b>
+        \n\n\u25CB એગ્રોડ્રીપ તમને આ ઓર્ડરની પુષ્ટિ કરવા કોલ કરશે.
+        \n\n\u25CB ઓર્ડર કરેલી આઇટમ પેક્ કરીને તમારા સરનામાં પર પહોંચાડશે
+        \n\n\u25CB તમે તમારું ઉત્પાદન તમારા ઘરે પ્રાપ્ત કરશો.</string>
+
+    <string name="view_status">તમારા ઓર્ડરની સ્થિતિ જુઓ</string>
+    <string name="share_profile_by">દ્વારા પ્રોફાઇલ શેર કરો</string>
+    <string name="share_profile_desc"> મને એગ્રોડ્રિપનો ઉપયોગ કરીને સારા ફાયદા મળ્યાં છે. તેઓ ઓછા પાણીથી વધુ ઉત્પાદન લેવા માટે મદદ કરે છે, એગ્રો નિષ્ણાતની મફત સલાહ, કૃષિ ઇનપુટ્સની ઘરેલું વિતરણનો આનંદ માણો. તમે  પણ મફત એપ્લિકેશન ઇન્સ્ટોલ કરીને આ લાભો લો:\nhttp://play.google.com/store/apps/details?id=</string>
+    <string name="notification_channel_id">default</string>
+    <string name="show_video">વિડિઓ જુઓ</string>
+
+    <string name="title_customer_service">ગ્રાહક સેવા કૉલ</string>
+    <string name="desc_customer_service">તમને અમારી ગ્રાહક સેવાનો કૉલ આવશે. શું તમે ચાલુ રાખવા માંગો છો, તો પછી હા બટન દબાવો</string>
+    <string name="splash_tag_line">Make Farming More Easy</string>
+    <string name="add_your_problems">ફોટો પાડો</string>
+    <string name="problem_added_successfully">સમસ્યા સફળતાપૂર્વક ઉમેરવામાં આવી!!</string>
+    <string name="crop_stages">તમારી પાકની અવસ્થા</string>
+    <string name="pls_enter_problems">કૃપા કરીને તમારી સમસ્યાઓ દાખલ કરો</string>
+    <string name="write_something">કંઇક લખો</string>
+
+
+</resources>

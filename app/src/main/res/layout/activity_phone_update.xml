@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".activity.settings.UpdatePhoneActivity">
+
+        <include
+            android:id="@+id/appbar"
+            layout="@layout/app_bar_main" />
+
+        <RelativeLayout
+            android:id="@+id/mobileRelative"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/appbar"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/txtTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/txtSubTitle"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="@dimen/_20sdp"
+                android:fontFamily="@font/roboto"
+                android:padding="@dimen/_10sdp"
+                android:text="@string/updatePhone"
+                android:textAllCaps="false"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/_14sdp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtSubTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/ll_main"
+                android:layout_centerInParent="true"
+                android:fontFamily="@font/roboto"
+                android:padding="@dimen/_10sdp"
+                android:text="@string/pls_enter_mobile_txt"
+                android:textAllCaps="false"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/_12sdp"
+                android:textStyle="bold" />
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/ll_main"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_margin="@dimen/_15sdp"
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:orientation="horizontal">
+
+                    <androidx.appcompat.widget.AppCompatEditText
+                        android:id="@+id/edtMobileNumber"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:backgroundTint="@color/colorPrimary"
+                        android:drawableStart="@drawable/ic_phone"
+                        android:drawablePadding="@dimen/_10sdp"
+                        android:hint="@string/phone"
+                        android:imeOptions="actionDone"
+                        android:inputType="phone"
+                        android:maxLength="10"
+                        android:maxLines="1"
+                        android:padding="@dimen/_5sdp"
+                        android:paddingStart="@dimen/_10sdp"
+                        android:paddingEnd="@dimen/_10sdp"
+                        android:textColor="@color/white"
+                        android:textColorHint="@color/white"
+                        android:textCursorDrawable="@null"
+                        android:textSize="@dimen/_12ssp"
+                        android:textStyle="bold" />
+
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/btnUpdateMobile"
+                        android:layout_width="@dimen/_62sdp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_5sdp"
+                        android:background="@drawable/border"
+                        android:backgroundTint="@color/colorPrimaryDark"
+                        android:padding="@dimen/_5sdp"
+                        android:text="@string/txtnext"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/_14sdp" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:gravity="center"
+                    android:maxLines="2"
+                    android:padding="@dimen/_5sdp"
+                    android:tag="4"
+                    android:text="@string/terms"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="@dimen/_9ssp" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/otpRelative"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/appbar"
+            android:gravity="center"
+            android:visibility="gone">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/img"
+                android:layout_width="@dimen/_200sdp"
+                android:layout_height="@dimen/_200sdp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/_30sdp"
+                app:srcCompat="@drawable/ic_otp" />
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/ll_main2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/img"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    android:gravity="center"
+                    android:text="@string/otp_desc"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/_12ssp" />
+
+
+                <com.mukesh.OtpView
+                    android:id="@+id/et_otp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:tag="3"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/_22sdp"
+                    android:textStyle="bold"
+                    app:itemCount="4"
+                    app:itemHeight="@dimen/_52sdp"
+                    app:itemRadius="@dimen/_8sdp"
+                    app:itemSpacing="@dimen/_10sdp"
+                    app:itemWidth="@dimen/_53sdp"
+                    app:lineColor="@color/colorPrimary"
+                    app:viewType="rectangle" />
+
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tv_resend"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    android:gravity="center"
+                    android:padding="@dimen/_3sdp"
+                    android:text="@string/resend"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="@dimen/_12ssp"
+                    android:textStyle="bold" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/btnVerifyOtp"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:background="@drawable/rounded_blue_btn"
+                android:gravity="center"
+                android:text="@string/verify_otp"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/_12ssp" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+</layout>

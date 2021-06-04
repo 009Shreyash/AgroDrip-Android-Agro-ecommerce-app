@@ -1,0 +1,33 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="512dp"
+    android:height="512dp"
+    android:viewportWidth="512"
+    android:viewportHeight="512">
+  <path
+      android:fillColor="#FF000000"
+      android:pathData="m30,151h91c16.538,0 30,-13.462 30,-30v-91c0,-16.538 -13.462,-30 -30,-30h-91c-16.538,0 -30,13.462 -30,30v91c0,16.538 13.462,30 30,30z"/>
+  <path
+      android:fillColor="#FF000000"
+      android:pathData="m211,151h90c16.538,0 30,-13.462 30,-30v-91c0,-16.538 -13.462,-30 -30,-30h-90c-16.538,0 -30,13.462 -30,30v91c0,16.538 13.462,30 30,30z"/>
+  <path
+      android:fillColor="#FF000000"
+      android:pathData="m482,0h-91c-16.538,0 -30,13.462 -30,30v91c0,16.538 13.462,30 30,30h91c16.538,0 30,-13.462 30,-30v-91c0,-16.538 -13.462,-30 -30,-30z"/>
+  <path
+      android:fillColor="#FF000000"
+      android:pathData="m30,331h91c16.538,0 30,-13.462 30,-30v-90c0,-16.538 -13.462,-30 -30,-30h-91c-16.538,0 -30,13.462 -30,30v90c0,16.538 13.462,30 30,30z"/>
+  <path
+      android:fillColor="#FF000000"
+      android:pathData="m181,301c0,16.538 13.462,30 30,30h90c16.538,0 30,-13.462 30,-30v-90c0,-16.538 -13.462,-30 -30,-30h-90c-16.538,0 -30,13.462 -30,30z"/>
+  <path
+      android:fillColor="#FF000000"
+      android:pathData="m482,181h-91c-16.538,0 -30,13.462 -30,30v90c0,16.538 13.462,30 30,30h91c16.538,0 30,-13.462 30,-30v-90c0,-16.538 -13.462,-30 -30,-30z"/>
+  <path
+      android:fillColor="#FF000000"
+      android:pathData="m30,512h91c16.538,0 30,-13.462 30,-30v-91c0,-16.538 -13.462,-30 -30,-30h-91c-16.538,0 -30,13.462 -30,30v91c0,16.538 13.462,30 30,30z"/>
+  <path
+      android:fillColor="#FF000000"
+      android:pathData="m181,482c0,16.538 13.462,30 30,30h90c16.538,0 30,-13.462 30,-30v-91c0,-16.538 -13.462,-30 -30,-30h-90c-16.538,0 -30,13.462 -30,30z"/>
+  <path
+      android:fillColor="#FF000000"
+      android:pathData="m482,361h-91c-16.538,0 -30,13.462 -30,30v91c0,16.538 13.462,30 30,30h91c16.538,0 30,-13.462 30,-30v-91c0,-16.538 -13.462,-30 -30,-30z"/>
+</vector>

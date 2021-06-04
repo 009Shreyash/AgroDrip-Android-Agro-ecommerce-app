@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parentFrame"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_230sdp"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/iv_auto_image_product"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_230sdp"
+        android:padding="@dimen/_20sdp"
+        android:scaleType="fitCenter" />
+
+
+</FrameLayout>

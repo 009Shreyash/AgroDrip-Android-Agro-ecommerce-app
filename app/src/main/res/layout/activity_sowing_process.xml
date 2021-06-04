@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:id="@+id/parentRelative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".activity.SowingProcessActivity">
+
+        <include
+            android:id="@+id/appbar"
+            layout="@layout/app_bar_main" />
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_height="match_parent"
+            android:id="@+id/rv_sowing_process"
+            android:layout_width="match_parent"
+            android:layout_below="@id/appbar"
+            android:orientation="vertical"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            tools:listitem="@layout/item_sowing_process_stright" />
+    </RelativeLayout>
+</layout>

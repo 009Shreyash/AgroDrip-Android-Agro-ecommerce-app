@@ -1,0 +1,284 @@
+<resources>
+    <string name="app_name">AgroDrip</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="weather">Weather</string>
+    <string name="order_list">Order List</string>
+    <string name="my_bag">My Bag</string>
+    <string name="about_us">About AgroDrip</string>
+    <string name="privacy">Terms &amp; Conditions</string>
+    <string name="logout">Logout</string>
+    <string name="setting">Settings</string>
+    <string name="unit_converter">Unit Converter</string>
+    <string name="share">Share App</string>
+    <string name="feedback">Write FeedBack here</string>
+    <string name="watch_app">Watch App Demo</string>
+
+    <string name="btn_edit_profile">Edit Profile</string>
+    <string name="btn_share_profile">Share Profile</string>
+    <string name="my_farm">My Farm</string>
+    <string name="agro_news">Agro News</string>
+    <string name="share_desc">I got good benefits by using AgroDrip.It helps me to Grow More with Less Water,Also Enjoy the Free agro expert advice, home delivery of agro inputs.Plase take this benefits by installing the free app from:</string>
+    <string name="share_title">Do you like our app?</string>
+    <string name="add_farm_desc">Add your farm to the map today to get correct and accurate information of your farm</string>
+    <string name="add_farm">Add Your Farm</string>
+    <string name="share_on_facebook">Share on Facebook</string>
+    <string name="share_on_whatsapp">Share on Whatsapp</string>
+    <string name="edt_area">Area</string>
+    <string name="edt_sowing_date">Showing Date</string>
+    <string name="edt_choose_crop">Choose Crop</string>
+    <string name="edt_field_name">Village/Farm Name</string>
+    <string name="phone">Mobile number</string>
+    <string name="login">login</string>
+    <string name="terms">By clicking here, you agree to the <u>Terms and conditions</u></string>
+    <string name="update_terms">By Clicking Update, you agree to the <u>Terms and conditions</u></string>
+    <string name="verify_otp">verify otp</string>
+    <string name="otp_desc">Please enter the OTP received via SMS on the mobile number</string>
+    <string name="resend">Resend</string>
+    <string name="english">English</string>
+    <string name="txt_welcome"><b>Welcome</b></string>
+
+    <string name="share_app_desc">"><b>AgroDrip</b>\n\n\ I got good benefits by using AgroDrip.It helps me to Grow More with Less Water,Also Enjoy the Free agro expert advice, home delivery of agro inputs.Plase take this benefits by installing the free app from:n\nhttp://play.google.com/store/apps/details?id=</string>
+    <string name="video_gallary">Video Gallery</string>
+    <string name="txtnext">Next</string>
+    <string name="deal_of_banner">Deal Of The Day</string>
+    <string name="btn_save">Save</string>
+    <string name="feedback_title">Feedback</string>
+    <string name="gujrati">ગુજરાતી</string>
+    <string name="location">Location</string>
+    <string name="language">Language</string>
+    <string name="app_features">App Features</string>
+    <string name="updatePhone">Update Mobile Number</string>
+    <string name="update_language">Language</string>
+
+    <string name="runtime_permissions_txt">Please enable ALL permissions from app settings.</string>
+
+    <!--Weather-->
+    <string name="desc_about_app">Weather forecast | ☀️ OpenWheatherMap</string>
+    <string name="version">Version</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="progress">Loading..</string>
+    <string name="msg_failed">Something went wrong...Please try later!</string>
+    <string name="msg_gps">Please enable GPS for current location access</string>
+    <string name="msg_internet">Please connect to Internet</string>
+    <string name="msg_location_services">Allow the application access to location permission</string>
+
+    <string name="desc_app_logo">App Logo</string>
+    <string name="msg_splash_bottom_tag">Made with ❤ in India | Open Source Project </string>
+    <string name="action_search">Change</string>
+    <string name="action_about">About</string>
+    <string name="search_title">Enter City Name </string>
+
+    <string name="desc_weather">Weather condition</string>
+
+    <string name="temp_lable">Temperature:</string>
+    <string name="temp_unit">\u00B0C</string>
+    <string name="wind_lable">Wind:</string>
+    <string name="wind_unit">m/s</string>
+    <string name="pressure_lable">Pressure:</string>
+    <string name="pressure_unit">hPa</string>
+    <string name="humidity_lable">humidity:</string>
+    <string name="humidity_unit">%</string>
+
+    <string name="today_s_weather">Today\'s Weather</string>
+    <string name="view_weather_forecast">View Weather Forecast</string>
+    <string name="view_all_video">View All Video</string>
+    <string name="view_more_deal">View More Deal</string>
+    <string name="add_farm_desc_text">For better care and for accurate and right advice of your crop</string>
+    <string name="btn_add_your_farm">Add Your Farm</string>
+    <string name="view_all_agro_news">View All Agro News</string>
+    <string name="txt_hoe_are_you">How are you</string>
+    <string name="txt_connect_network">Connect to network</string>
+    <string name="market_place">Agro Bazzar</string>
+    <string name="crops">Crops</string>
+    <string name="refresh">Refresh</string>
+    <string name="txt_weather_forecast">Weather Forecast</string>
+    <string name="edt_name">Full Name</string>
+    <string name="edt_address2">Address line 2</string>
+    <string name="edt_address1">Address Line1</string>
+    <string name="edt_city">City</string>
+    <string name="edt_state">State</string>
+    <string name="edt_pincode">Pincode</string>
+    <string name="add_address">Add New Address</string>
+    <string name="choose_address">Select Address</string>
+    <string name="txtShare">Share</string>
+    <string name="more">More</string>
+    <string name="txtName">Name</string>
+    <string name="update_profile">Update Profile</string>
+    <string name="last_name">Last Name</string>
+    <string name="first_name">First name</string>
+    <string name="farm_fertilizers">Special Product</string>
+    <string name="view_all_ferilizers">View All Products</string>
+    <string name="view_all_problems">View All Problems</string>
+    <string name="problems_solutions">Problems &amp; Solutions</string>
+    <string name="farm_fertilizers_sub_title">Get Best Productivity</string>
+    <string name="problems_solutions_sub_title">Crops Related Solutions</string>
+    <string name="crop_tips">Tips &amp; Best Practices</string>
+    <string name="crop_tips_sub_title">How to Grow your Crop with Best Tips</string>
+    <string name="view_all_tips">View All Tips</string>
+    <string name="recommended_product">Recommended Products</string>
+    <string name="txt_tips">Tips</string>
+    <string name="add_new">Add New</string>
+    <string name="txt_comment">Comment</string>
+    <string name="btn_send">send</string>
+    <string name="rate_us">Give Rating to Agrodrip</string>
+    <string name="order_details">Order Details</string>
+    <string name="drip_title">Drip Section</string>
+
+    <string name="hectare">Hectare(હેક્ટર)</string>
+    <string name="sq_yard">Sq. Yard(ચો. યાર્ડ)</string>
+    <string name="guntha">Guntha(ગુંઠા)</string>
+    <string name="bigha">Bigha(બિઘા)</string>
+    <string name="acre">Acre(એકર)</string>
+    <string name="bigha_23">Bigha(23.5)(બિઘા 23.5)</string>
+    <string name="bigha_16">Bigha(16)(બિઘા 16)</string>
+
+
+    <string name="village_name">Village Name :</string>
+    <string name="taluka">Taluka :</string>
+    <string name="choose_crop">Choose Crop :</string>
+    <string name="area">Area :</string>
+    <string name="spacing">Spacing :</string>
+    <string name="repeat_case">Repeat Case :</string>
+
+    <string name="free_delivery">Free Delivery</string>
+    <string name="share_product">Share The Product</string>
+    <string name="txtbuy">Buy</string>
+    <string name="ask_expert">Ask Expert</string>
+    <string name="txt_add_cart">Add to Cart</string>
+
+    <string name="calculate">Calculate</string>
+    <string name="sowing_date">Showing Date</string>
+    <string name="product_detail">Product Details</string>
+
+    <string name="Rs">\u20B9</string>
+    <string name="place_order">Place Order</string>
+    <string name="total_amount">Total Amount</string>
+    <string name="cash_delivery">Cash On Delivery</string>
+    <string name="empty_cart">Empty Cart</string>
+    <string name="should_not_blank">Should not be blank!</string>
+
+    <!--NewAdded-->
+    <string name="pls_enter_name">Please enter name</string>
+    <string name="pls_enter_address_1">Please enter address 1</string>
+    <string name="pls_enter_address_2">Please enter address 2</string>
+    <string name="pls_enter_city">Please enter city</string>
+    <string name="pls_enter_state">Please enter state</string>
+    <string name="pls_enter_pincode">Please enter pincode</string>
+    <string name="select_address">Select address</string>
+    <string name="txt_by_agrodrip">By AgroDrip</string>
+    <string name="share_neews_by_txt">Share Agro News by...</string>
+    <string name="share_banner_by_txt">Share Deal of the day by...</string>
+    <string name="enter_village_txt">Enter village name</string>
+    <string name="chooes_crop_txt">Choose Crop</string>
+    <string name="choose_area">Choose Area</string>
+    <string name="choose_sowing_date_txt">Choose sowing date</string>
+    <string name="choose_unit_txt">pick any one of unit</string>
+    <string name="share_crop_problem_by_txt">Share Crop-Problems by...</string>
+    <string name="share_product_by_txt">Share Product by...</string>
+    <string name="product_added_successfully">Product added successfully.</string>
+    <string name="problem_added_successfully">Problem added successfully.</string>
+    <string name="share_tips_by_txt">Share Crop Tips by...</string>
+    <string name="quantity_txt">QTY</string>
+    <string name="profile_update_txt">Profile updated successfully</string>
+    <string name="stay_connected">Stay Connected</string>
+    <string name="delivery_door_step">Delivery on your door step</string>
+    <string name="letest_update_advice">Get Latest Updates and Advice</string>
+    <string name="intro_desc_1">Get Best smart irrigation solutions and agriculture techniques on your fingertips</string>
+    <string name="intro_desc_2">Buy Best quality seeds, pesticides, crop protection, crop nutrition and drip irrigation products</string>
+    <string name="intro_desc_3">Get weather updates, advice on your crop and drip irrigation problems with all relevant alert and agriculture news at one place</string>
+    <string name="pls_enter_mobile_txt">Please enter mobile number</string>
+    <string name="pls_enter_valid_number_txt">Please enter valid mobile number</string>
+    <string name="title_cart_list">Cart List</string>
+    <string name="total_amount_txt">\"Total amount: \"</string>
+    <string name="enter_feedback_txt">Enter something for feedback</string>
+    <string name="double_click_exit_txt">Please click BACK again to exit</string>
+    <string name="share_app_by">Share App by...</string>
+    <string name="drip_cal_success_txt">Drip Calculation Successfully</string>
+    <string name="lang_already_selected">Language already selected!</string>
+    <string name="txt_close">close</string>
+    <string name="txt_today">Today</string>
+    <string name="txt_tommorow">Tomorrow</string>
+    <string name="txt_later">Later</string>
+    <string name="order_date">Order Date :</string>
+    <string name="order_id">Order # :</string>
+    <string name="order_total">Order Total :</string>
+    <string name="shipment_details">Shipment Details</string>
+    <string name="payment_information">Payment Information</string>
+    <string name="payment_method">Payment Method</string>
+    <string name="billing_address">Billing Address</string>
+    <string name="buy_it_again">Buy it again</string>
+    <string name="return_or_replace_items">Return or Replace items</string>
+    <string name="no_data_available">No data available</string>
+    <string name="more_information">More Information</string>
+    <string name="packing">Packing</string>
+    <string name="product_description">Product Description</string>
+    <string name="all_products">All Products</string>
+    <string name="unit">Unit</string>
+    <string name="value">Value</string>
+    <string name="txt_drip">Drip</string>
+    <string name="txt_market">Market</string>
+    <string name="txtlogout">Logout</string>
+    <string name="logout_desc">Are you sure want to logout?</string>
+    <string name="txt_yes">Yes</string>
+    <string name="txt_no">No</string>
+    <string name="drip_calculation">Drip Calculation</string>
+    <string name="txt_village">Village</string>
+    <string name="txtTaluka">Taluka</string>
+    <string name="txtCrop">Crop</string>
+    <string name="txtSpacing">Spacing</string>
+    <string name="txtrepeat_case">Repeat Case</string>
+    <string name="price_approved_by_government">Price Approved By Government</string>
+    <string name="applied_subsidy">Applied Subsidy</string>
+    <string name="estimated_cost">Estimated Cost</string>
+    <string name="drip_calculate_desc">Calculated cost is for estimation only ,for correct costing please connect with our Drip expert by clicking “Ask Expert”</string>
+    <string name="no_farmlist_found">No Farmlist Found</string>
+    <string name="communicate">Communicate</string>
+    <string name="crop_harvested">Crop Harvested?</string>
+    <string name="delete_farm">Delete Farm</string>
+    <string name="edit_farm">Edit Farm</string>
+    <string name="inqirey_added_ask_expert">Your inquiry added successfully,AgroDrip Expert will call back you soon!</string>
+    <string name="double_click">Please click BACK again to exit</string>
+    <string name="address">Address</string>
+    <string name="view_all_farm">View all Farm</string>
+    <string name="no_address_found">No address added</string>
+    <string name="change_location">Change location</string>
+    <string name="next_5_days_foreacast">Next 5 days foreacast</string>
+    <string name="select_language">Select Language</string>
+    <string name="drip_added_successfully">drip added successfully</string>
+    <string name="orderplace_text">Are you sure want to Place order?</string>
+    <string name="issue_drip">Issue in Drip Irrigation</string>
+    <string name="gov_scheme">Government Schemes</string>
+    <string name="share_gov_scheme">Share Government Schemes</string>
+    <string name="share_issue_in_drip">Share Issue In Drip</string>
+    <string name="share_deal_of_day">Share Deal of Day</string>
+    <string name="share_news">Share Agro News</string>
+    <string name="share_tips">"Share Tips "</string>
+    <string name="share_problems">Share Problems of Crops</string>
+    <string name="enquiry_for_drip_irrigation">Enquiry for Drip Irrigation</string>
+    <string name="order_success">Order Success</string>
+    <string name="order_success_desc">Your order placed successfully\nThank you so much for shopping with us.</string>
+    <string name="order_success_desc_more"><b>\u25A0 Next Steps :</b>\n\n
+        \u25CB Agrodrip will call you to validate the order.\n\n
+        \u25CB Ordered item will be packed and deliver to your address.\n\n
+        \u25CB You will receive your product at your doorstep.</string>
+    <string name="view_status">View your order status</string>
+    <string name="share_profile_by">Share Profile By</string>
+    <string name="share_profile_desc">I got good benefits by using AgroDrip.It helps me to Grow More with Less Water,Also Enjoy the Free agro expert advice, home delivery of agro inputs.Plase take this benefits by installing the free app by click on below link\nhttp://play.google.com/store/apps/details?id=</string>
+    <string name="notification_channel_id">default</string>
+    <string name="show_video">Watch video</string>
+    <string name="title_customer_service">Customer Service Call</string>
+    <string name="desc_customer_service">You will get a call from our customer service. Would you like to continue then press YES button</string>
+    <string name="splash_tag_line">Make Farming More Easy</string>
+    <string name="add_your_problems">Take a Picture</string>
+    <string name="crop_stages">Your Crop Stages</string>
+    <string name="pls_enter_problems">Please Enter Your Problems</string>
+    <string name="write_something">Write something</string>
+</resources>

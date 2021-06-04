@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/actionHome"
+        android:icon="@drawable/ic_home"
+        android:title="@string/menu_home" />
+    <item
+        android:id="@+id/actionMarket"
+        android:icon="@drawable/ic_marketplace"
+        android:title="@string/txt_market"/>
+    <item
+        android:id="@+id/actionDrip"
+        android:icon="@drawable/ic_drip"
+        android:title="@string/txt_drip"/>
+    <item
+        android:id="@+id/actionFarm"
+        android:icon="@drawable/ic_tractor"
+        android:title="@string/my_farm"/>
+</menu>

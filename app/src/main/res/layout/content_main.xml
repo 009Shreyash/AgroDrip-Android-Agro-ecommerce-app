@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:id="@+id/parentLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/green_18"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/appbar"
+            layout="@layout/app_bar_main" />
+
+        <View
+            android:id="@+id/viewBar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1sdp"
+            android:layout_above="@id/bottomNavigation"
+            android:background="@color/lightGray"
+            android:elevation="@dimen/_5sdp" />
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottomNavigation"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_45sdp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp"
+            android:background="@color/white"
+            android:elevation="@dimen/_10sdp"
+            app:itemIconSize="@dimen/_18sdp"
+            app:menu="@menu/bottom_nav_menu" />
+
+        <FrameLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/viewBar"
+            android:layout_below="@id/appbar" />
+
+    </RelativeLayout>
+</layout>

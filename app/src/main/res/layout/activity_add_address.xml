@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:id="@+id/parentRelative"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        tools:context=".activity.address.AddAddressActivity">
+
+        <include
+            android:id="@+id/appbar"
+            layout="@layout/app_bar_main" />
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:padding="@dimen/_10sdp"
+            android:text="@string/btn_save"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12sdp"
+            android:textStyle="bold" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/btnSave"
+            android:layout_below="@id/appbar">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/_30sdp"
+                android:orientation="vertical">
+
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edtName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_20sdp"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    android:layout_marginEnd="@dimen/_20sdp"
+                    android:background="@drawable/edt_border"
+                    android:hint="@string/edt_name"
+                    android:inputType="textCapWords"
+                    android:padding="@dimen/_10sdp"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/_11ssp"
+                    android:textStyle="bold" />
+
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edtAddress1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_20sdp"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    android:layout_marginEnd="@dimen/_20sdp"
+                    android:background="@drawable/edt_border"
+                    android:hint="@string/edt_address1"
+                    android:inputType="textCapWords"
+                    android:padding="@dimen/_10sdp"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/_11ssp"
+                    android:textStyle="bold" />
+
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edtFieldAddress2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_20sdp"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    android:layout_marginEnd="@dimen/_20sdp"
+                    android:background="@drawable/edt_border"
+                    android:hint="@string/edt_address2"
+                    android:inputType="textCapWords"
+                    android:padding="@dimen/_10sdp"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/_11ssp"
+                    android:textStyle="bold" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edtcity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_20sdp"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    android:layout_marginEnd="@dimen/_20sdp"
+                    android:background="@drawable/edt_border"
+                    android:hint="@string/edt_city"
+                    android:inputType="textCapWords"
+                    android:padding="@dimen/_10sdp"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/_11ssp"
+                    android:textStyle="bold"/>
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edtState"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_20sdp"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    android:layout_marginEnd="@dimen/_20sdp"
+                    android:background="@drawable/edt_border"
+                    android:hint="@string/edt_state"
+                    android:inputType="textCapWords"
+                    android:padding="@dimen/_10sdp"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/_11ssp"
+                    android:textStyle="bold" />
+
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edtPincode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_20sdp"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    android:layout_marginEnd="@dimen/_20sdp"
+                    android:background="@drawable/edt_border"
+                    android:hint="@string/edt_pincode"
+                    android:inputType="numberDecimal"
+                    android:maxLength="6"
+                    android:padding="@dimen/_10sdp"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/_11ssp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+</layout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="@dimen/_180sdp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_2sdp"
+        app:cardBackgroundColor="@color/white"
+        android:elevation="@dimen/_10sdp"
+        app:cardCornerRadius="@dimen/_7sdp">
+
+        <LinearLayout
+            android:id="@+id/parentLinear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/iv_product"
+                android:layout_width="@dimen/_130sdp"
+                android:layout_height="@dimen/_130sdp"
+                android:padding="@dimen/_5sdp"
+                android:scaleType="fitCenter" />
+
+            <TextView
+                android:id="@+id/tv_product_name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:lines="2"
+                android:padding="@dimen/_5sdp"
+                android:singleLine="true"
+                android:textAllCaps="false"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/_10sdp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</layout>

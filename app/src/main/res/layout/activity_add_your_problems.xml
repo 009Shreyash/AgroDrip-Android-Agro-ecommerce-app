@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:id="@+id/parentRelative"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".activity.AddYourProblemsActivity">
+
+        <include
+            android:id="@+id/appbar"
+            layout="@layout/app_bar_main" />
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/llMain"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/appbar"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="@dimen/_45sdp"
+                    android:layout_height="@dimen/_45sdp"
+                    android:src="@drawable/ic_add_photo"
+                    android:layout_centerInParent="true"/>
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/iv_profile"
+                    android:layout_width="@dimen/_200sdp"
+                    android:layout_height="@dimen/_100sdp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginStart="@dimen/_40sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginEnd="@dimen/_40sdp"
+                    android:layout_marginBottom="@dimen/_10sdp"
+                    android:background="@drawable/curved_border"
+                    android:padding="@dimen/_30sdp"
+                    android:scaleType="fitXY"
+                    app:civ_border_color="@color/colorPrimary"
+                    app:civ_border_width="@dimen/_3sdp" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add Image of your problems" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/et_problems"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_250sdp"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_20sdp"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:background="@drawable/curved_border"
+                android:drawablePadding="@dimen/_10sdp"
+                android:gravity="start|top"
+                android:hint="@string/write_something"
+                android:inputType="text"
+                android:padding="@dimen/_10sdp"
+                android:textAllCaps="false"
+                android:textSize="@dimen/_12sdp"
+                android:textColor="@color/colorPrimary"
+                android:textColorHint="@color/colorPrimary"
+                android:textStyle="bold" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:padding="@dimen/_10sdp"
+            android:text="@string/btn_save"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12sdp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+</layout>

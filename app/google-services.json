@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "251715349295",
+    "firebase_url": "https://agrodrip-7c4ee.firebaseio.com",
+    "project_id": "agrodrip-7c4ee",
+    "storage_bucket": "agrodrip-7c4ee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:251715349295:android:a0dc7b8bde3147eb5b4fda",
+        "android_client_info": {
+          "package_name": "com.agrodrip"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "251715349295-jk1s12230rnoc6da795c5thoun5ie3je.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.agrodrip",
+            "certificate_hash": "c62803d8b2db536da8bf54526fb3e443d9387c3f"
+          }
+        },
+        {
+          "client_id": "251715349295-qph2hk4cmbeaqkj60tmbd3pq3o7j07bq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.agrodrip",
+            "certificate_hash": "d80b9af41fcb124197fc00efef4637e9ccc38c42"
+          }
+        },
+        {
+          "client_id": "251715349295-2md2v43ts8ttju8i4a7kumo95vk82ke3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBT9qFmA82JhH6rVMzOAdE0naeQe3AUiYk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "251715349295-2md2v43ts8ttju8i4a7kumo95vk82ke3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
